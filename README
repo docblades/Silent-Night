@@ -17,8 +17,18 @@ Alternate installation:
 * Mount the phone's SD card on a PC.
 * Copy silent_night.py to the ase/scripts directory
 
-Usage:
+Setup:
 
+* Start ASE
+* Long press on silent_night.py
+* Press Edit
+* Change MIN_HOUR to the hour you want the ringer silenced
+* Change MAX_HOUR to the hour you want the ringer unsilenced
+* * (Be sure to use 24 hour time, where 0 is 12 midnight)
+* Press Menu
+* Press Save
+
+Usage:
 * Start ASE
 * Long press on silent_night.py
 * Press Start Service
