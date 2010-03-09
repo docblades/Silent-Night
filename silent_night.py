@@ -72,14 +72,14 @@ if MAX_HOUR < MIN_HOUR:
         # If it's, say, 0200 currently and we're going from 2300 to 0600
         # Make the 2300 minimum for the previous night      
         d_min = d_min - a_day
-    elif t_now.hour > d_min.hour and t_now.hour > d_max.hour:
+    elif t_now.hour >= d_min.hour and t_now.hour > d_max.hour:
         # In this case, it's 0900 and we're going from 2300 to 0600
         # Make the maximum for the next morning
         d_max = d_max + a_day
 
-# print "Now: " + t_now.ctime()
-# print "Min: " + d_min.ctime()
-# print "Max: " + d_max.ctime()
+print "Now: " + t_now.ctime()
+print "Min: " + d_min.ctime()
+print "Max: " + d_max.ctime()
 
 if t_now >= d_min and t_now < d_max:
     # Is it silent time now?

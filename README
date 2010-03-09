@@ -1,0 +1,28 @@
+Silent Night is a simple python script which silences and Android phone between set hours and unsilences the phone afterwards.
+
+It's intended purpose is to suppress email chirps while the user is asleep.
+
+Requirements:
+
+* An Android-based device
+* Android Scripting Environment (ASE) available at http://code.google.com/p/android-scripting
+* Python interpreter for ASE
+
+Installation:
+
+* Using a file manager such as ASTRO, copy silent_night.py to /sdcard/ase/scripts
+
+Alternate installation:
+
+* Mount the phone's SD card on a PC.
+* Copy silent_night.py to the ase/scripts directory
+
+Usage:
+
+* Start ASE
+* Long press on silent_night.py
+* Press Start Service
+
+The script will run in the background until stopped from the notification tray
+
+Created by Christian Blades (christian.blades@docblades.com)
